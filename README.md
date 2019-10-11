@@ -41,3 +41,13 @@ Initially I thought increasing epochs would help to manage fluctuations but it h
                   batch_size=32)
 ```
 
+### Trials of 10 times for each drop-out rate
+![RNN_DO_0.1](images/6m_gap_rnn_dropout_0.1.png "DO_0.1")
+![RNN_DO_0.2](images/6m_gap_rnn_dropout_0.2.png "DO_0.2")
+![RNN_DO_0.3](images/6m_gap_rnn_dropout_0.3.png "DO_0.3")
+![RNN_DO_0.4](images/6m_gap_rnn_dropout_0.4.png "DO_0.4")
+![RNN_DO_0.5](images/6m_gap_rnn_dropout_0.5.png "DO_0.5")
+![RNN_DO_0.6](images/6m_gap_rnn_dropout_0.6.png "DO_0.6")
+![RNN_DO_0.7](images/6m_gap_rnn_dropout_0.7.png "DO_0.7")
+![RNN_DO_0.8](images/6m_gap_rnn_dropout_0.8.png "DO_0.8")
+
