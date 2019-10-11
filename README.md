@@ -16,7 +16,7 @@ Initially I thought increasing epochs would help to manage fluctuations but it h
 
 ## Current code
 
-I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top principal components are used). Train data shape is (1469, 52, 30).
+I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top principal components are used). Train data also includes output gap at the time and its shape is (1469, 52, 31). Target is output gap of 6 month forward.
 
 ```
         regressor = Sequential()
