@@ -16,6 +16,8 @@ Initially I thought increasing epochs would help to manage fluctuations but it h
 
 ## Current code
 
+I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top principal components are used). 
+
 ```
         regressor = Sequential()
 
