@@ -21,26 +21,26 @@ I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top pr
 ```
         regressor = Sequential()
 
-        regressor.add(LSTM(units = 50, return_sequences = True, input_shape = (X_train_rnn.shape[1], X_train_rnn.shape[2])))
+        regressor.add(LSTM(units=50, return_sequences=True, input_shape=(X_train_rnn.shape[1], X_train_rnn.shape[2])))
         regressor.add(Dropout(drop_out))
 
-        regressor.add(LSTM(units = 50, return_sequences = True))
+        regressor.add(LSTM(units=50, return_sequences=True))
         regressor.add(Dropout(drop_out))
 
-        regressor.add(LSTM(units = 50, return_sequences = True))
+        regressor.add(LSTM(units=50, return_sequences=True))
         regressor.add(Dropout(drop_out))
 
-        regressor.add(LSTM(units = 50))
+        regressor.add(LSTM(units=50))
         regressor.add(Dropout(drop_out))
 
-        regressor.add(Dense(units = 1))
+        regressor.add(Dense(units=1))
 
-        regressor.compile(optimizer = 'adam', loss = 'mean_squared_error')
+        regressor.compile(optimizer='adam', loss='mean_squared_error')
 
         regressor.fit(X_train_g_rnn, 
-                  y_train_g_rnn, 
-                  epochs=50, 
-                  batch_size=32)
+                      y_train_g_rnn, 
+                      epochs=50, 
+                      batch_size=32)
 ```
 
 ### Trials of 10 times for each drop-out rate
