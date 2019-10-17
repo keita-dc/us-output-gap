@@ -45,7 +45,7 @@ I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top pr
 
 ### Trials of 10 times for each drop-out rate
 
-Different number of LSTM layers with drop out rate at 0.5
+#### Different number of LSTM layers with drop out rate at 0.5
 ![RNN_LSTM_2](images/6m_gap_rnn_2_LSTM_0.5_dropout.png "LSTM 2")
 ![RNN_LSTM_3](images/6m_gap_rnn_3_LSTM_0.5_dropout.png "LSTM 3")
 ![RNN_LSTM_4](images/6m_gap_rnn_4_LSTM_0.5_dropout.png "LSTM 4")
@@ -53,13 +53,8 @@ Different number of LSTM layers with drop out rate at 0.5
 ![RNN_LSTM_6](images/6m_gap_rnn_6_LSTM_0.5_dropout.png "LSTM 6")
 ![RNN_LSTM_7](images/6m_gap_rnn_7_LSTM_0.5_dropout.png "LSTM 7")
 
-LSTM 2 Layers with different drop out rates
-![RNN_DO_0.1](images/6m_gap_rnn_dropout_0.1.png "DO_0.1")
-![RNN_DO_0.2](images/6m_gap_rnn_dropout_0.2.png "DO_0.2")
-![RNN_DO_0.3](images/6m_gap_rnn_dropout_0.3.png "DO_0.3")
-![RNN_DO_0.4](images/6m_gap_rnn_dropout_0.4.png "DO_0.4")
-![RNN_DO_0.5](images/6m_gap_rnn_dropout_0.5.png "DO_0.5")
-![RNN_DO_0.6](images/6m_gap_rnn_dropout_0.6.png "DO_0.6")
-![RNN_DO_0.7](images/6m_gap_rnn_dropout_0.7.png "DO_0.7")
-![RNN_DO_0.8](images/6m_gap_rnn_dropout_0.8.png "DO_0.8")
-
+#### LSTM 7 Layers with different drop out rates
+![RNN_DO_0.1](images/6m_gap_rnn_7_LSTM_0.1_dropout.png "DO_0.1")
+![RNN_DO_0.3](images/6m_gap_rnn_7_LSTM_0.3_dropout.png "DO_0.3")
+![RNN_DO_0.5](images/6m_gap_rnn_7_LSTM_0.5_dropout.png "DO_0.5")
+![RNN_DO_0.7](images/6m_gap_rnn_7_LSTM_0.7_dropout.png "DO_0.7")
