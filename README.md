@@ -58,3 +58,6 @@ I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top pr
 ![RNN_DO_0.3](images/6m_gap_rnn_7_LSTM_0.3_dropout.png "DO_0.3")
 ![RNN_DO_0.5](images/6m_gap_rnn_7_LSTM_0.5_dropout.png "DO_0.5")
 ![RNN_DO_0.7](images/6m_gap_rnn_7_LSTM_0.7_dropout.png "DO_0.7")
+
+#### LSTM 7 Layers, 0.5 drop-out rate, and 100 principal components
+![RNN_100_pc](images/6m_gap_rnn_7_LSTM_0.7_dropout_100_pca.png "100 pc")
