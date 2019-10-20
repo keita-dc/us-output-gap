@@ -56,6 +56,7 @@ I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top pr
 ![RNN_LSTM_9](images/6m_gap_rnn_9_LSTM_0.5_dropout.png "LSTM 9")
 
 ![LSTM_comparison](images/LSTM_layer_trial.png "comparison_LSTM")
+
 It looks having 6 or more LSTM layers stabilizes the model predictions.
 
 #### LSTM 7 Layers with different drop out rates
@@ -64,8 +65,10 @@ It looks having 6 or more LSTM layers stabilizes the model predictions.
 ![RNN_DO_0.5](images/6m_gap_rnn_7_LSTM_0.5_dropout.png "DO_0.5")
 ![RNN_DO_0.7](images/6m_gap_rnn_7_LSTM_0.7_dropout.png "DO_0.7")
 
+![drop_out_comparison](images/drop_out_trial.png "comparison_drop_out")
+
+Not obvious but drop-out rates around 0.3~0.5 seem better.
+
 #### LSTM 7 Layers, 0.5 drop-out rate, and 100 principal components
 ![RNN_100_pc](images/6m_gap_rnn_7_LSTM_0.7_dropout_100_pca.png "100 pc")
 
-![drop_out_comparison](images/drop_out_trial.png "comparison_drop_out")
-Not obvious but drop-out rates around 0.3~0.5 seem better.
