@@ -52,6 +52,8 @@ I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top pr
 ![RNN_LSTM_5](images/6m_gap_rnn_5_LSTM_0.5_dropout.png "LSTM 5")
 ![RNN_LSTM_6](images/6m_gap_rnn_6_LSTM_0.5_dropout.png "LSTM 6")
 ![RNN_LSTM_7](images/6m_gap_rnn_7_LSTM_0.5_dropout.png "LSTM 7")
+![RNN_LSTM_8](images/6m_gap_rnn_8_LSTM_0.5_dropout.png "LSTM 8")
+![RNN_LSTM_9](images/6m_gap_rnn_9_LSTM_0.5_dropout.png "LSTM 9")
 
 #### LSTM 7 Layers with different drop out rates
 ![RNN_DO_0.1](images/6m_gap_rnn_7_LSTM_0.1_dropout.png "DO_0.1")
