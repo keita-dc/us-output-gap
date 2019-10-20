@@ -43,7 +43,7 @@ I'm using 52 timesteps (i.e. one year). Data is processed through PCA (30 top pr
                       batch_size=32)
 ```
 
-### Trials of 10 times for each drop-out rate
+### Trials of 10 times for different numbers of LSTM layers and drop-out rates
 
 #### Different number of LSTM layers with drop out rate at 0.5
 ![RNN_LSTM_2](images/6m_gap_rnn_2_LSTM_0.5_dropout.png "LSTM 2")
