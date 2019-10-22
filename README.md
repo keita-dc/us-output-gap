@@ -61,13 +61,13 @@ It looks having 6 or more LSTM layers stabilizes the model predictions.
 
 #### LSTM 7 Layers with different drop out rates
 ![RNN_DO_0.1](images/6m_gap_rnn_7_LSTM_0.1_dropout.png "DO_0.1")
-![RNN_DO_0.2](images/6m_gap_rnn_7_LSTM_0.2_dropout.png "DO_0.2")
+![RNN_DO_0.2](images/6m_gap_rnn_7_LSTM_dropout_0.2.png "DO_0.2")
 ![RNN_DO_0.3](images/6m_gap_rnn_7_LSTM_0.3_dropout.png "DO_0.3")
-![RNN_DO_0.4](images/6m_gap_rnn_7_LSTM_0.4_dropout.png "DO_0.4")
+![RNN_DO_0.4](images/6m_gap_rnn_7_LSTM_dropout_0.4.png "DO_0.4")
 ![RNN_DO_0.5](images/6m_gap_rnn_7_LSTM_0.5_dropout.png "DO_0.5")
-![RNN_DO_0.6](images/6m_gap_rnn_7_LSTM_0.6_dropout.png "DO_0.6")
+![RNN_DO_0.6](images/6m_gap_rnn_7_LSTM_dropout_0.6.png "DO_0.6")
 ![RNN_DO_0.7](images/6m_gap_rnn_7_LSTM_0.7_dropout.png "DO_0.7")
-![RNN_DO_0.8](images/6m_gap_rnn_7_LSTM_0.8_dropout.png "DO_0.8")
+![RNN_DO_0.8](images/6m_gap_rnn_7_LSTM_dropout_0.8.png "DO_0.8")
 
 ![drop_out_comparison](images/drop_out_trial.png "comparison_drop_out")
 
