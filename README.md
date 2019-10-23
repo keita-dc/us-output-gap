@@ -76,3 +76,6 @@ Not obvious but drop-out rates around 0.3~0.5 seem better.
 #### LSTM 7 Layers, 0.5 drop-out rate, and 100 principal components
 ![RNN_100_pc](images/6m_gap_rnn_7_LSTM_0.7_dropout_100_pca.png "100 pc")
 
+## Nest Steps
+- try GRU
+- try extracting cyclical factors in input (band-path filter?)
