@@ -6,6 +6,9 @@ Keita Miyaki
 ## Goal
 This project aims to develop a model to accurately forecast GDP gap of the US economy using machine learning and deep learning techniques.
 
+## Medium article
+![Medium](https://towardsdatascience.com/recurrent-neural-networks-for-recession-forecast-f435a2a4f3ef "Medium")
+
 ## Data
 Macroeconomic and financial data from FRED since kate 1970's, up/downsampled to weekly frequency for data not in weekly frequency.
 
